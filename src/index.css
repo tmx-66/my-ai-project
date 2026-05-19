@@ -1,0 +1,13 @@
+/**
+ * Tailwind CSS v4：通过 Vite 插件扫描源码中的类名并生成样式。
+ * 个人仪表盘等页面仅依赖 Tailwind 工具类即可实现布局与主题。
+ */
+@import 'tailwindcss';
+
+/**
+ * 应用根节点：占满视口宽度，便于仪表盘全宽布局（与默认 Vite 模板居中窄版不同）。
+ */
+#root {
+  min-height: 100dvh;
+  width: 100%;
+}
