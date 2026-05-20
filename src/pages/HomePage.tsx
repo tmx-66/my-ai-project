@@ -15,7 +15,7 @@ export default function HomePage() {
   return (
     <div>
       <Typography.Title level={3}>Home</Typography.Title>
-      <Typography.Paragraph>登录成功,欢迎免费用户{getUser()}</Typography.Paragraph>
+      <Typography.Paragraph>登录成功,欢迎免费plus用户{getUser()}</Typography.Paragraph>
       <Button danger onClick={handleLogout}>
         退出登录
       </Button>
